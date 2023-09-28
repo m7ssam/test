@@ -20,7 +20,7 @@
 * {
   margin: 0;
   padding: 0;
-  color: white;
+  color: rgb(27, 27, 27);
 
   font-family: sans-serif;
 
@@ -48,6 +48,7 @@ header {
 h1 {
   padding: 20px;
   font-size: 25px;
+  color: #f2f2f2;
 }
 
 /* ===============
@@ -71,11 +72,12 @@ h1 {
 
 .main-link {
   padding: 8px 15px;
+  color: #f2f2f2;
 }
 
 .main-link:hover {
-  color: cyan;
-  box-shadow: 0 0 5px cyan;
+  color: rgb(133, 133, 133);
+  box-shadow: 0 0 5px rgb(255, 255, 255);
   border-radius: 5px;
 }
 
@@ -89,7 +91,7 @@ h1 {
   position: absolute;
   top: 69px;
   left: -15px;
-  border-top: 1px solid cyan;
+  border-top: 1px solid rgb(255, 255, 255);
 
   background-color: #1b1b1b;
 
@@ -127,7 +129,7 @@ h1 {
   top: 80px;
   left: 153px;
 
-  border-top: 1px solid cyan;
+  border-top: 1px solid rgb(255, 255, 255);
 
   background-color: #1b1b1b;
 
@@ -150,13 +152,13 @@ h1 {
 main{
   color: #1b1b1b;
 
-  height: calc(100vh - 128.64px);
+  height: calc(100vh - 279.64px);
 
   font-size: 30px;
   font-weight: bold;
   line-height: 50px;
-
-  display: flex;
+  margin-top: 150px;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
  
@@ -165,7 +167,7 @@ main{
 
 footer{
   background-color: #1b1b1b;
-
+  color: #f2f2f2;
   padding: 20px 0;
   text-align: center;
   font-size: 18px;
