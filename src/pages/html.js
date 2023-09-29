@@ -8,6 +8,7 @@ const Html = () => {
       <Header />
       <main>
         <h3>HTML</h3>
+        <hr />
         <Bodycontent />
       </main>
       <Footer />
