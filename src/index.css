@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.main-link.active {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
