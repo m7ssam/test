@@ -1,12 +1,13 @@
 import React from "react";
 import "./css/header.css";
 import { NavLink } from "react-router-dom";
+import color from "./css/color.css";
 
 const Header = () => {
   return (
-    <div style={{ color: "white" }}>
+    <div>
       <header className="hide-when-mobile">
-        <h1>I made This React ☺</h1>
+        <h1 className={color.gray}>I made This React ☺</h1>
         <ul className="flex">
           <li className="main-list">
             <NavLink className="main-link" to="/">
