@@ -1,17 +1,14 @@
 import React from "react";
 import Header from "../comp/header";
 import Footer from "../comp/footer";
-import Bodycontent from "../comp/bodycontent";
+import Maincontent from "../comp/maincontent";
+
 
 const Home = () => {
   return (
     <>
       <Header />
-      <main>
-        <h3>Home</h3>
-        <hr />
-        <Bodycontent />
-      </main>
+      <Maincontent pageName="Home" designer="Hossam" />
       <Footer />
     </>
   );

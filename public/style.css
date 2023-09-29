@@ -17,40 +17,6 @@
    0. global style
 ================ */
 
-* {
-  margin: 0;
-  padding: 0;
-  color: rgb(27, 27, 27);
-
-  font-family: sans-serif;
-
-  text-decoration: none;
-  list-style: none;
-
-  letter-spacing: 1px;
-}
-
-html {
-  box-sizing: border-box;
-  background-color: #f2f2f2;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-header {
-  background-color: #1b1b1b;
-}
-
-h1 {
-  padding: 20px;
-  font-size: 25px;
-  color: #f2f2f2;
-}
-
 /* ===============
    1.  ul class .flex
 ================ */
@@ -149,33 +115,8 @@ h1 {
 /* ==================
     2. main & footer
 ===================== */
-main{
-  color: #1b1b1b;
 
-  height: calc(100vh - 279.64px);
 
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 50px;
-  margin-top: 150px;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
- 
-  text-align: center;
-}
 
-footer{
-  background-color: #1b1b1b;
-  color: #f2f2f2;
-  padding: 20px 0;
-  text-align: center;
-  font-size: 18px;
-}
 
-/* ==================
-    3. header of mobile
-===================== */
-.show-when-mobile {
-  display: none;
-}
+

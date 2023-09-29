@@ -1,0 +1,15 @@
+main{
+    color: #1b1b1b;
+  
+    height: calc(100vh - 279.64px);
+  
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-top: 150px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+   
+    text-align: center;
+  }

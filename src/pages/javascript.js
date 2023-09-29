@@ -1,16 +1,12 @@
 import React from "react";
 import Header from "../comp/header";
 import Footer from "../comp/footer";
-import Bodycontent from "../comp/bodycontent";
+import Maincontent from "../comp/maincontent";
 const Javascript = () => {
   return (
     <>
       <Header />
-      <main>
-        <h3>javaScript</h3>
-        <hr />
-        <Bodycontent />
-      </main>
+      <Maincontent pageName="Javascript" designer="Hossam" />
       <Footer />
     </>
   );
